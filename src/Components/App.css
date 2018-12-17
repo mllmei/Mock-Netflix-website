@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+div {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.film {
+  padding: 5px 10px;
+  text-align: center;
+}
+button {
+  padding: 2px;
+  visibility: hidden;
+}
+.film:hover > button {
+  visibility: visible;
+}
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
